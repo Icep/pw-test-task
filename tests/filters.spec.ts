@@ -8,7 +8,7 @@ test.describe('Douglas product listing', () => {
     let cookieModal: CookieModalFragment
     let navbar: NavBarFragment
     let filtersBar: FiltersBarFragment
-    let filtersTestData: object
+    let filtersTestData: any[] = []
 
     filtersTestData = readCsvFile('filters-data.csv')
     console.log(typeof(filtersTestData))
